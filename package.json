@@ -1,0 +1,53 @@
+{
+  "name": "ygb3cards",
+  "version": "0.0.1",
+  "description": "Архивная картотека ЯГБ №3",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "mocha server/tests --timeout 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ooby/ygb3cards.git"
+  },
+  "keywords": [
+    "ygb3",
+    "cards",
+    "archive"
+  ],
+  "author": "Afanasy Argunov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ooby/ygb3cards/issues"
+  },
+  "homepage": "https://github.com/ooby/ygb3cards#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-animate": "^1.6.6",
+    "angular-aria": "^1.6.6",
+    "angular-material": "^1.1.5",
+    "angular-material-icons": "^0.7.1",
+    "angular-messages": "^1.6.6",
+    "angular-recaptcha": "^4.1.0",
+    "angular-route": "^1.6.6",
+    "angular-sanitize": "^1.6.6",
+    "body-parser": "^1.18.2",
+    "copy-webpack-plugin": "^4.1.1",
+    "express": "^4.16.1",
+    "http-errors": "^1.6.2",
+    "jsonwebtoken": "^8.0.1",
+    "ldapjs": "^1.0.1",
+    "mongoose": "^4.12.0",
+    "morgan": "^1.9.0",
+    "nconf": "^0.8.5",
+    "nodemailer": "^4.1.2",
+    "underscore": "^1.8.3",
+    "uuid": "^3.1.0",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1"
+  }
+}
